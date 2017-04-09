@@ -1,0 +1,49 @@
+@-webkit-keyframes bouncedelay {
+  0%, 100%, 80% {
+    -webkit-transform: scale(0);
+    transform: scale(0)
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+}
+@keyframes bouncedelay {
+  0%, 100%, 80% {
+    -webkit-transform: scale(0);
+    transform: scale(0)
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+}
+.loading-indicator{
+  display: inline-block;
+  vertical-align: middle;
+}
+.loading-indicator i{
+  position: relative;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #A6ADAD;
+  border-radius: 50%;
+  line-height: 0;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-animation: bouncedelay 1.3s infinite linear;
+  animation: bouncedelay 1.3s infinite linear
+}
+.loading-indicator i:nth-child(2){
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s
+}
+.loading-indicator i:nth-child(3){
+  -webkit-animation-delay: .6s;
+  animation-delay: .6s
+}
+.loading-container {
+  text-align: center;
+  padding: 1em 1em
+}
