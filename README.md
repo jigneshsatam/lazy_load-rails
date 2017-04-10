@@ -1,9 +1,9 @@
 # lazy_load-rails
-***Load page lazily as an when required***
+***Load page lazily as and when required***
 ***
 
 
-lazy_load-rails is a gem that helps to **load page lazily** as an **when required**. The gem ***reduces page load time*** and ***reduces server ram*** by loading important content of the page in the first call and then by triggering calls to load the remaining page. The gem gives **Reactjs** like **functionality** in your ruby-on-rails application.
+lazy_load-rails is a gem that helps to **load page lazily** as and **when required**. The gem ***reduces page load time*** and ***reduces server ram*** by loading important content of the page in the first call and then by triggering calls to load the remaining page. The gem gives **Reactjs** like **functionality** in your ruby-on-rails application.
 
 ## Installation
 
